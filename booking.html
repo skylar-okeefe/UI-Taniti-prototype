@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Island of Taniti - Booking</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+    <header class="GlobalHeader">
+        <div class="logo">ISLAND OF TANITI</div>
+        <nav class="MainNav">
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="lodging.html" class="nav-link">Lodging</a></li>
+                <li><a href="transportation.html" class="nav-link">Transportation & Traveler Info</a></li>
+                <li><a href="explore.html" class="nav-link">Explore</a></li>
+                <li><a href="booking.html" class="nav-link active">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+          <section class="HeroSection">
+            <h1>Book your Island Getaway</h1>
+            <p>Fill out the form to book your vacation or get more information.</p>
+            </section>
+        <section class="BookingContainer">
+            <form class="BookingForm" action="#" method="post">
+                <h2>TRIP RESERVATION</h2>
+
+                <div class="FormGroup">
+                    <label>Full Name</label>
+                    <input type="text" required>
+                </div>
+
+                <div class="FormGroup">
+                    <label>Email Address</label>
+                    <input type="email" required>
+                </div>
+
+                <div class="FormGroup">
+                    <label>Reservation Type</label>
+                    <select required>
+                        <option value="">Select...</option>
+                        <option value="lodging">Lodging</option>
+                        <option value="tour">Excursion / Sightseeing</option>
+                        <option value="transit">Transportation</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="button">SUBMIT</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="GlobalFooter">
+        <p>&copy; 2026 Visit Taniti</p>
+        <input type="text" placeholder="Search site...">
+    </footer>
+
+</body>
+</html>
