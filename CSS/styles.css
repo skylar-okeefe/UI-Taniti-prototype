@@ -219,3 +219,11 @@ main {
     width: 200px;
 }
 
+.BookingLayout {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 side-by-side columns */
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
