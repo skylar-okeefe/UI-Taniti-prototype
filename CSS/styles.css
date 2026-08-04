@@ -6,11 +6,11 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI';
     line-height: 1.6;
     color: #333333;
     background-color: #a5deff;
-    background: linear-gradient(180deg, #eef7ff 0%, #ffffff 400px);
+    background: linear-gradient(180deg, #e7f4ff 0%, #f7f5e6 400px);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -36,6 +36,7 @@ main {
 
 .logo {
     font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
     color: #1a365d;
@@ -84,14 +85,14 @@ main {
 }
 
 .HeroContent h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #1a365d;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
 
 .HeroContent p {
-    font-size: 1.1rem;
+    font-size: 2 rem;
     color: #4a5568;
     margin-bottom: 1.5rem;
 }
@@ -113,7 +114,7 @@ main {
 .HeroImage img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Prevents image stretching */
+    object-fit: cover; 
     display: block;
 }
 
@@ -147,7 +148,6 @@ main {
 
 .CardGrid {
     display: grid;
-    /* Force 3 equal columns on desktop, auto-adjusting for smaller screens */
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
@@ -166,6 +166,7 @@ main {
 .card h3 {
     color: #1a365d;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 /* Card Image */
@@ -200,6 +201,9 @@ main {
     width: 100%;
     margin-right: 0;
 }
+.card ul{
+    text-align: left;
+}
 
 /* GLOBBAL FOOTER */
 .GlobalFooter {
@@ -219,3 +223,15 @@ main {
     width: 200px;
 }
 
+.BookingLayout {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    
+}
+.BookingLayout h3 {
+    text-align: ;
+}
