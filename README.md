@@ -1,6 +1,6 @@
 # Island of Taniti - UI Prototype
 
-**Course:** Western Governors University - User Experience Design - D479
+
 **Author:** Skylar O'Keefe  
 **Email:** sokeef1@wgu.edu
 
